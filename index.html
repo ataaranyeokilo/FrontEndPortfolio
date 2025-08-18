@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ata Okilo – Front-End & Data-savvy Engineer</title>
+  <meta name="description" content="Portfolio of Ata Okilo – React, Alpine.js, Statamic familiarity; Laravel + Inertia + MySQL understanding. Component-driven, atomic design mindset." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <style>
+    :root { --ring: 0 0 0 3px rgba(59,130,246,.4); }
+    html, body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ata Okilo",
+    "jobTitle": "Front-End Developer / Data-Focused Engineer",
+    "email": "mailto:ataaranyeokilo@gmail.com",
+    "url": "https://ataokiloportfolio.netlify.app",
+    "knowsAbout": ["React", "Alpine.js", "Statamic", "Laravel", "Inertia", "MySQL", "Atomic Design", "Component-Driven Development"],
+    "sameAs": ["https://github.com/ataaranyeokilo"]
+  }
+  </script>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="font-semibold">Ata Okilo</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#work" class="hover:text-blue-600">Work</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#principles" class="hover:text-blue-600">Principles</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="mailto:ataaranyeokilo@gmail.com" class="px-3 py-1.5 rounded-xl bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 focus:outline-none focus:[box-shadow:var(--ring)]">Hire me</a>
+        <a href="Ata_sCV_FE.pdf" target="_blank" class="px-3 py-1.5 rounded-xl border border-neutral-300 text-sm hover:border-neutral-400">CV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative">
+    <div class="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-semibold leading-tight">Front-End developer with a <span class="text-blue-600">component-driven</span> mindset.<br class="hidden md:block"/> Comfortable across React, Alpine, and Laravel + Inertia.</h1>
+        <p class="mt-4 text-neutral-700">I build clean, testable UIs and understand the back-end plumbing (Laravel, MySQL, server-side Inertia) that feeds them. Currently creating two showcase projects—see live placeholders below, with full write-ups landing today.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#work" class="px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 focus:outline-none focus:[box-shadow:var(--ring)]">See projects</a>
+          <a href="#skills" class="px-4 py-2 rounded-xl border border-neutral-300 hover:border-neutral-400">Skills</a>
+          <a href="Ata_sCV_FE.pdf" target="_blank" class="px-4 py-2 rounded-xl border border-neutral-300 hover:border-neutral-400">Download CV</a>
+        </div>
+        <div class="mt-6 text-sm text-neutral-600">
+          <span class="inline-flex items-center gap-2 rounded-full bg-green-100 text-green-800 px-3 py-1">🚧 Shipping today: case studies + repos</span>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm">
+          <img src="Screenshot%202025-08-18%20at%2012.00.03.png" alt="Portfolio preview screenshot" class="rounded-xl border">
+          <div class="mt-3 text-xs text-neutral-600">Atomic design → predictable reuse and fast iteration.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="py-10 border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-semibold">Selected Work</h2>
+        <a href="#contact" class="text-sm text-blue-600 hover:underline">Available for interviews →</a>
+      </div>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <!-- Project 1: Atomic React Portfolio -->
+        <article class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="text-lg font-semibold">Atomic React Portfolio</h3>
+            <span class="text-xs rounded-full bg-yellow-100 text-yellow-800 px-2 py-1">MVP live today</span>
+          </div>
+          <p class="mt-2 text-neutral-700">A component-driven portfolio built with React + Tailwind following Atomic Design. Tokens, variants, and tests for atoms/molecules. Focus on a11y and performance.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">React</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">TypeScript</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">Tailwind</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">Vitest</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-3 text-sm">
+            <a class="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700" href="#" aria-disabled="true">Live link (incoming)</a>
+            <a class="px-3 py-1.5 rounded-lg border border-neutral-300" href="https://github.com/ataaranyeokilo" target="_blank">GitHub</a>
+          </div>
+          <p class="mt-3 text-xs text-neutral-600">Case study & Lighthouse report publishing today (UTC−4).</p>
+        </article>
+
+        <!-- Project 2: Laravel + Inertia CMS -->
+        <article class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="text-lg font-semibold">Laravel + Inertia Projects CMS</h3>
+            <span class="text-xs rounded-full bg-yellow-100 text-yellow-800 px-2 py-1">MVP live today</span>
+          </div>
+          <p class="mt-2 text-neutral-700">A tiny CMS to manage projects with Laravel 11, Eloquent, MySQL (or SQLite), Inertia for server-driven React pages, and Alpine.js for micro-interactions.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">Laravel</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">Inertia</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">MySQL/SQLite</span>
+            <span class="rounded-full bg-neutral-100 px-2.5 py-1">Alpine.js</span>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-3 text-sm">
+            <a class="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700" href="#" aria-disabled="true">Live link (incoming)</a>
+            <a class="px-3 py-1.5 rounded-lg border border-neutral-300" href="https://github.com/ataaranyeokilo" target="_blank">GitHub</a>
+          </div>
+          <p class="mt-3 text-xs text-neutral-600">Public pages deploy first; admin CRUD follows shortly.</p>
+        </article>
+      </div>
+
+      <!-- Optional Statamic card -->
+      <div class="mt-6">
+        <article class="rounded-2xl border border-dashed border-neutral-300 bg-neutral-50 p-5">
+          <h3 class="text-base font-semibold">(Optional) Statamic Mini-Site</h3>
+          <p class="mt-1 text-neutral-700 text-sm">A lightweight Statamic build to model project content and render Antlers templates. I’ll add this if the role benefits from a Laravel-native CMS angle.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-10 border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Skills at a glance</h2>
+      <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">Front-End</div>
+          <p class="text-neutral-700 mt-1">React (hooks, routing), Tailwind, Alpine.js, accessibility, performance budgets, atomic design.</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">Back-End</div>
+          <p class="text-neutral-700 mt-1">Laravel 11, Eloquent, migrations/seeders, policies, validation, RESTful controllers, Inertia pages.</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">Data & Storage</div>
+          <p class="text-neutral-700 mt-1">MySQL/SQLite basics, schema design, seeding, simple reporting endpoints.</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">Tooling</div>
+          <p class="text-neutral-700 mt-1">Vite, TypeScript, ESLint/Prettier, Vitest, GitHub Actions, Vercel/Netlify, Render/Railway.</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">CMS</div>
+          <p class="text-neutral-700 mt-1">Statamic familiarity; content modeling; Antlers templating; headless patterns.</p>
+        </div>
+        <div class="rounded-2xl border p-4">
+          <div class="font-semibold">Soft Stuff</div>
+          <p class="text-neutral-700 mt-1">Component libraries, design tokens, docs that devs actually read.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Principles -->
+  <section id="principles" class="py-10 border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Component-driven principles</h2>
+      <ul class="mt-3 space-y-2 text-neutral-800 list-disc pl-6">
+        <li><span class="font-medium">Small → big:</span> atoms → molecules → organisms → pages.</li>
+        <li><span class="font-medium">Props & variants:</span> components expose minimal, well-named APIs.</li>
+        <li><span class="font-medium">A11y by default:</span> keyboard, focus, labels, contrast.</li>
+        <li><span class="font-medium">Composition over inheritance:</span> slots/children patterns.</li>
+        <li><span class="font-medium">Measure:</span> Lighthouse + basic unit tests where it counts.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-10 border-t border-neutral-200 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Contact</h2>
+      <div class="mt-4 grid md:grid-cols-2 gap-6 items-start">
+        <div class="rounded-2xl border p-5">
+          <div class="text-sm text-neutral-700">Email</div>
+          <div class="mt-1 flex items-center gap-2">
+            <a href="mailto:ataaranyeokilo@gmail.com" class="font-medium text-blue-600 hover:underline">ataaranyeokilo@gmail.com</a>
+            <button class="text-xs px-2 py-1 rounded-lg border" x-data x-on:click="navigator.clipboard.writeText('ataaranyeokilo@gmail.com')">Copy</button>
+          </div>
+          <div class="mt-4 text-sm text-neutral-700">GitHub</div>
+          <div class="mt-1">
+            <a href="https://github.com/ataaranyeokilo" target="_blank" class="text-blue-600 hover:underline">github.com/ataaranyeokilo</a>
+          </div>
+          <div class="mt-4 text-sm text-neutral-700">CV</div>
+          <div class="mt-2 flex gap-2">
+            <a href="Ata_sCV_FE.pdf" target="_blank" class="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700">Download CV (PDF)</a>
+            <a href="Ata_sCV_FE.pdf" download="Ata_Okilo_CV.pdf" class="px-3 py-1.5 rounded-lg border border-neutral-300 hover:border-neutral-400">Save</a>
+          </div>
+        </div>
+        <form class="rounded-2xl border p-5" x-data="{ sent:false }" x-on:submit.prevent="sent=true">
+          <label class="block text-sm text-neutral-700">Name</label>
+          <input class="mt-1 w-full rounded-lg border p-2" placeholder="Your name" required>
+          <label class="block text-sm text-neutral-700 mt-4">Email</label>
+          <input type="email" class="mt-1 w-full rounded-lg border p-2" placeholder="you@company.com" required>
+          <label class="block text-sm text-neutral-700 mt-4">Message</label>
+          <textarea class="mt-1 w-full rounded-lg border p-2" rows="4" placeholder="Hello Ata…" required></textarea>
+          <button class="mt-4 px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700" x-show="!sent">Send (demo)</button>
+          <div class="mt-4 text-green-700" x-show="sent">Thanks! For today this is a demo—please email me directly.</div>
+        </form>
+      </div>
+      <p class="mt-6 text-xs text-neutral-500">© <span id="y"></span> Ata Okilo. Built with semantic HTML, Tailwind, Alpine. Deployed static for speed.</p>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
